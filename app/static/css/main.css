@@ -1,0 +1,32 @@
+h1 {
+  margin: 0;
+  font-size: 10vh;
+}
+
+h2 {
+  margin: 0;
+  font-size: 5vh;
+  font-weight: lighter;
+}
+/* 
+.floaters {
+
+} */
+
+.title {
+  font-family: 'Syne';
+}
+
+.news {
+  font-family: 'Gloock';
+  font-style: italic;
+}
+
+.silly {
+  font-family: 'Shantell Sans';
+}
+
+.names {
+  font-family: 'Lexend Zetta';
+  font-size: 2vh;
+}
