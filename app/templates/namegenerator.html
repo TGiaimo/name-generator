@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <body>
+    <head>
+      <title>names for your beats</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/namegenerator.css') }}">
+      <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Syne:wght@800&family=Gloock&family=Unbounded&family=Shantell+Sans:ital,wght@1,500&family=Lexend+Zetta">
+    </head>
+      
+      <h1 class="title">names for your beats:</h1>
+      <h2 class="news">picked from the latest <span class="silly">(and oddest)<span class="news"> headlines</h2>
+        {% for title in titles %}
+        <div class="names"><p>{{ title }}</p></div>
+        {% endfor %}
+        <!-- <script type="text/javascript">
+          var words = <p>{{ titles }}</p>;
+          print(words);
+          console.log(words);
+        </script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/physics.js') }}"></script>
+        <canvas id="canvas"></canvas>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/physics.js') }}"></script> -->
+        <!-- <script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script> -->
+    </body>
+</html>
